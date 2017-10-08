@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Muddy Paws Adventure Shop</title>
+
+    <!--The following line loads in your CSS style sheet-->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/product_detail.css">
+
+    <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+
+    <!--The following line loads in your JS script-->
+    <script src="js/todo.js"></script>
+</head>
+
+<body>
+    <!-- top bar -->
+    <div id="nav">
+        <div id="logo">Muddy Paws</div>
+        <div class="shopping-cart">
+            <img src="./resources/images/shopping_cart.png" class="shopping-cart-icon" alt="shopping cart"></img>
+        </div>
+    </div>
+    <div class="container outer-container">
+        <a href="browse.html" class="container section-title-link">Back to Products</a>
+        <div class="container detail-outer-container">
+            <div class="container detail-inner-container">
+                <div class="container detail-image-container">
+                    <img class="detail-image" src="./resources/images/cat_harness.jpg"></img>
+                </div>
+                <div class="container detail-info-container">
+                    <div class="detail-title">Cat Harness</div>
+                    <div class="detail-price">Price: $69</div>
+                    <div class="detail-caption">A dope harness for your dope little cuddly killing machine. Choose size and color.</div>
+                    <div class="detail-select-size-title">Size:</div>
+                    <div class="select-container">
+                        <select name="size"> 
+                            <option value="value1">Tiny</option> 
+                            <option value="value2" selected>Small</option>
+                            <option value="value3">Medium</option>
+                            <option value="value3">Large</option>
+                        </select>
+                    </div>
+
+                    <div class="detail-select-color-title">Color:</div>
+                    <div class="select-container">
+                        <select name="color">
+                            <option value="value1">Strawberry</option> 
+                            <option value="value2" selected>Blackberry</option>
+                            <option value="value3">Crazyberry</option>
+                            <option value="value3">Camouflage</option>
+                            <option value="value3">Night Moon</option>
+                            <option value="value3">Fire Orange</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
