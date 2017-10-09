@@ -48,7 +48,9 @@ body {
 }
 
 .container {
-    border: 1px dotted red;
-    background-color: rgba(255, 127, 80, 0.05);
+    /* for debugging */
+    border: thin transparent solid;
+    /* padding-top: 1px; */
+    /* background-color: rgba(255, 127, 80, 0.05); */
     margin: 32px;
 }
