@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Muddy Paws Adventure Shop</title>
+
+    <!--The following line loads in your CSS style sheet-->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/cart.css">
+
+    <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+
+    <!--The following line loads in your JS script-->
+    <script src="scripts/cart.js"></script>
+</head>
+
+<body>
+    <!-- top bar -->
+    <div id="nav">
+        <div id="logo">Muddy Paws</div>
+        <div id="shopping-cart">
+            <div id="shopping-cart-items">0</div>
+            <img src="./resources/images/shopping_cart.png" id="shopping-cart-icon" alt="shopping cart"></img>
+        </div>
+    </div>
+    <div class="container outer-container">
+        <a href="browse.html" class="container browse-link">Browse More Products</a>
+        <div class="container cart-outer-container">
+            <div class="container cart-inner-container">
+                <div class="container cart-contents">
+                    <h1 class="cart-title">Your Cart:</h1>
+                    <div data-item-num="0" class="container cart-item">
+                        <div class="cart-item-image-container">
+                            <img class="cart-item-image" src="./resources/images/cat_harness.jpg"></img>
+                        </div>
+                        <div class="cart-item-caption-container">
+                            <div class="cart-item-caption-head">Cat Harness</div>
+                            <div class="cart-item-caption-head">$10</div>
+                            <div class="cart-item-caption-sub">Crazyberry</div>
+                            <div class="cart-item-caption-sub">Small</div>
+                            <button class="remove-item">Remove</button>
+                        </div>
+                    </div>
+                    <div data-item-num="1" class="container cart-item">
+                        <div class="cart-item-image-container">
+                            <img class="cart-item-image" src="./resources/images/dog_harness.jpg"></img>
+                        </div>
+                        <div class="cart-item-caption-container">
+                            <div class="cart-item-caption-head">Dog Harness</div>
+                            <div class="cart-item-caption-head">$12</div>
+                            <div class="cart-item-caption-sub">Night Moon</div>
+                            <div class="cart-item-caption-sub">Large</div>
+                            <button class="remove-item">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container cart-subtotal">
+                    <div class="cart-title">Subtotal:</div>
+                    <div class="cart-title">$234</div>
+                    <button id="checkout-button">Checkout</button>
+                </div>
+</body>
+
+</html>

@@ -13,21 +13,22 @@
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
 
     <!--The following line loads in your JS script-->
-    <script src="js/todo.js"></script>
+    <script src="scripts/browse.js"></script>
 </head>
 
 <body>
     <!-- top bar -->
     <div id="nav">
         <div id="logo">Muddy Paws</div>
-        <div class="shopping-cart">
-            <img src="./resources/images/shopping_cart.png" class="shopping-cart-icon" alt="shopping cart"></img>
+        <div id="shopping-cart">
+            <div id="shopping-cart-items">0</div>
+            <img src="./resources/images/shopping_cart.png" id="shopping-cart-icon" alt="shopping cart"></img>
         </div>
     </div>
     <div class="container outer-container">
         <h1 class="container section-title">Browse Products</h1>
         <div class="container item-container">
-            <div class="container item">
+            <div data-item-num="0" class="container item">
                 <div class="item-image-container">
                     <img class="item-image" src="./resources/images/cat_harness.jpg"></img>
                 </div>
@@ -35,37 +36,37 @@
                     Cat Harness
                 </div>
                 <div class="item-price">
-                    $30
+                    $10
                 </div>
             </div>
-            <div class="container item">
+            <div data-item-num="1" class="container item">
                 <div class="item-image-container">
-                    <img class="item-image" src="./resources/images/cat_harness.jpg"></img>
+                    <img class="item-image" src="./resources/images/dog_harness.jpg"></img>
                 </div>
                 <div class="item-caption">
-                    Cat Harness
+                    Dog Harness
                 </div>
                 <div class="item-price">
-                    $30
+                    $12
                 </div>
             </div>
-            <div class="container item">
+            <div data-item-num="2" class="container item">
                 <div class="item-image-container">
-                    <img class="item-image" src="./resources/images/cat_harness.jpg"></img>
+                    <img class="item-image" src="./resources/images/food_harness.jpg"></img>
                 </div>
                 <div class="item-caption">
-                    Cat Harness
+                    Food and Water Storage Attachment
                 </div>
                 <div class="item-price">
-                    $30
+                    $5
                 </div>
             </div>
-            <div class="container item">
+            <div data-item-num="3" class="container item">
                 <div class="item-image-container">
-                    <img class="item-image" src="./resources/images/cat_harness.jpg"></img>
+                    <img class="item-image" src="./resources/images/gps_collar.jpg"></img>
                 </div>
                 <div class="item-caption">
-                    Cat Harness
+                    GPS Tracker Collar
                 </div>
                 <div class="item-price">
                     $30

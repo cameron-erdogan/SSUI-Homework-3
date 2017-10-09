@@ -7,15 +7,18 @@
     float: left;
     margin-bottom: 0;
     margin-top: 0;
+    width: 100%;
 }
 
 .detail-outer-container {
     background: rgba(155, 155, 155, 0.20);
-    display: inline-block;
+    /* display: inline-block;
+    margin: auto; */
 }
 
 .detail-inner-container {
     background: white;
+    height: 500px;
     display: flex;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,24 +41,25 @@
     height: 400px;
 }
 
-.detail-image {
-    width: 100%;
+#detail-image {
+    width: 80%;
+    padding-bottom: 100px;
 }
 
-.detail-title {
+#detail-title {
     font-family: AvenirNext-Bold;
-    font-size: 42px;
+    font-size: 36px;
     color: #4A4A4A;
 }
 
-.detail-price {
+#detail-price {
     /* Price: $64: */
     font-family: AvenirNext-Bold;
     font-size: 24px;
     color: #4A4A4A;
 }
 
-.detail-caption {
+#detail-caption {
     /* A dope harness for y: */
     font-family: AvenirNext-Regular;
     font-size: 14px;
@@ -85,6 +89,10 @@
 
 .select-container {
     width: 100%;
+}
+
+#add-to-cart-button {
+    margin-top: 32px;
 }
 
 select {

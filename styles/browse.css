@@ -7,8 +7,10 @@
 
 .item {
     width: 230px;
+    height: 300px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
     /* height: 300px; */
 }
 
@@ -26,11 +28,12 @@
 .item-caption {
     /* Cat Harness: */
     font-family: AvenirNext-Bold;
-    font-size: 24px;
+    font-size: 18px;
     color: #4A4A4A;
     padding: 10px;
     float: left;
     text-align: left;
+    width: 60%;
 }
 
 .item-price {
@@ -45,11 +48,11 @@
 .item-image-container {
     overflow: hidden;
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 
 .item-image {
     /* height: 150%; */
     position: relative;
-    width: 120%;
+    width: 90%;
 }

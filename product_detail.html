@@ -13,15 +13,16 @@
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
 
     <!--The following line loads in your JS script-->
-    <script src="js/todo.js"></script>
+    <script src="scripts/product_detail.js"></script>
 </head>
 
 <body>
     <!-- top bar -->
     <div id="nav">
         <div id="logo">Muddy Paws</div>
-        <div class="shopping-cart">
-            <img src="./resources/images/shopping_cart.png" class="shopping-cart-icon" alt="shopping cart"></img>
+        <div id="shopping-cart">
+            <div id="shopping-cart-items">0</div>
+            <img src="./resources/images/shopping_cart.png" id="shopping-cart-icon" alt="shopping cart"></img>
         </div>
     </div>
     <div class="container outer-container">
@@ -29,12 +30,12 @@
         <div class="container detail-outer-container">
             <div class="container detail-inner-container">
                 <div class="container detail-image-container">
-                    <img class="detail-image" src="./resources/images/cat_harness.jpg"></img>
+                    <img id="detail-image" src="./resources/images/cat_harness.jpg"></img>
                 </div>
                 <div class="container detail-info-container">
-                    <div class="detail-title">Cat Harness</div>
-                    <div class="detail-price">Price: $69</div>
-                    <div class="detail-caption">A dope harness for your dope little cuddly killing machine. Choose size and color.</div>
+                    <div id="detail-title">Cat Harness</div>
+                    <div id="detail-price">Price: $69</div>
+                    <div id="detail-caption">A dope harness for your dope little cuddly killing machine. Choose size and color.</div>
                     <div class="detail-select-size-title">Size:</div>
                     <div class="select-container">
                         <select name="size"> 
@@ -55,6 +56,9 @@
                             <option value="value3">Night Moon</option>
                             <option value="value3">Fire Orange</option>
                         </select>
+                    </div>
+                    <div class="button-container">
+                        <button id="add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
             </div>
