@@ -3,6 +3,44 @@ body {
     margin: auto;
 }
 
+.container {
+    border: thin transparent solid;
+    margin: 32px;
+}
+
+.title-container {
+    margin: 80px;
+}
+
+.big-title {
+    font-family: AmericanTypewriter-Bold;
+    font-size: 100px;
+    color: #9B9B9B;
+}
+
+.sub-title {
+    font-family: AmericanTypewriter-Bold;
+    font-size: 48px;
+    color: #B4CA95;
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#enter-button {
+    padding-top: 200px;
+    padding-left: 50px;
+    font-family: AmericanTypewriter-Bold;
+    font-size: 48px;
+    color: #4990E2;
+}
+
+#title-image {
+    height: 300px;
+}
+
 #nav {
     list-style: none;
     margin: 0;
@@ -45,12 +83,4 @@ body {
     top: 0px;
     left: 0px;
     z-index: 5;
-}
-
-.container {
-    /* for debugging */
-    border: thin transparent solid;
-    /* padding-top: 1px; */
-    /* background-color: rgba(255, 127, 80, 0.05); */
-    margin: 32px;
 }
